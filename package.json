@@ -1,0 +1,10 @@
+{
+  "name": "shop-manager",
+  "version": "1.0.0",
+  "description": "Offline desktop app for computer service shops — intake, invoicing, daily accounting, customer debts",
+  "main": "src/main.js",
+  "author": "Sina — Sarzamin Game",
+  "license": "MIT",
+  "scripts": { "start": "electron .", "dist": "electron-builder --win nsis --x64" },
+  "devDependencies": { "electron": "^33.2.0", "electron-builder": "^25.1.8" }
+}
